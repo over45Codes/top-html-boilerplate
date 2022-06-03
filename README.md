@@ -2,9 +2,9 @@
 
 - HTML boilerplate project
 
-Try it [here!](n/a) comming soon!
+Try it [here!]() comming soon!
 
-![alt text](n/a) comming soon!
+![alt text]() comming soon!
 
 ## Summary
 
