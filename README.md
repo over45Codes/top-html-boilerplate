@@ -1,10 +1,10 @@
 # Basic HTML boilerplate plate
 
-- Digital clock application built in JavaScript, HTML, and CSS
+- HTML boilerplate project
 
-Try it [here!](n/a)
+Try it [here!](n/a) comming soon!
 
-![alt text](n/a)
+![alt text](n/a) comming soon!
 
 ## Summary
 
