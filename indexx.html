@@ -11,11 +11,30 @@
     <link rel="icon" href="images/codinghtml.png" type="images/png">
 </head>
 <body>
-<section id="html">
-<h1>I'm Ready to Learn More HTML</h1>
+    <h1>My Goals for the Year</h1>
+    <nav aria-label="primary-navigation">
+               <ul>
+            <li>
+                <a href="#html">Learning HTML</a>
+            </li>
+            <li>
+                <a href="#vacation">Planning a Vacation</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+    <main>
+        
+<article id="html">
+    <h2>I'm Ready to Learn HTML</h2>
 <p>This is an HTML webpage</p>
+<section>
+<h3>HTML5</h3>
 <img src="images/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
 <figure><figcaption>An Example of HTML5 code <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code></figcaption></figure>
+</section>
+<section>
 <h2>My Daily Schedule</h2>
 <p>Let me tell you how:</p>
 <ol>
@@ -27,8 +46,18 @@
     </li>
     <li>...I use resources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/">MDN</a></abbr></li>
 </ol>
-
-<h3>Places I'd like to Visit</h3>
+<aside>
+    <details>
+        <summary>Guess the <mark> number of hours</mark> I code per day</summary>
+        <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H">3 hours</time> every morning.</p>
+    </details>
+</aside>
+</section>
+</article>
+<article id="vacation">
+    <!-- TODO: Add more places -->
+<section>
+    <h3>Places I'd like to Visit</h3>
 <p>I've heard good things about the Carribean.</p>
 <figure>
 <img src="images/caribbean.jpeg" alt="Carribean Beach" title="I want to visit a Carribean beach." width="400" height="225" loading="lazy">
@@ -37,11 +66,15 @@
 <h4>Bucket list of places I want to go on vacation to:</h4>
 <figure><img src="images/vacation.jpeg" alt="Beach Vacation" title="It's 5 o'clock Somewhere!." width="400" height="267" loading="lazy">
 <figcaption>Cancun Vacation</figcaption> </figure>
-
 </section>
+</article>
+</main>
 <hr> 
-    &lt;&lt;&lt; &copy; <a href="about.html" target="_blank"> Grace Castaneda 2022 </a>&gt;&gt;&gt;
-    <p><a href="/">Back to home</a></p>   
+<footer>
+    <p>
+    &lt;&lt;&lt; &copy; <a href="about.html" target="_blank"> Grace Castaneda 2022 </a>&gt;&gt;&gt;</p>
+    <p><a href="/">Back to home</a></p> 
+</footer>  
 </body>
 </html>
 
