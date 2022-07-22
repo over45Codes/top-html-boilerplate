@@ -1,102 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Grace Castaneda">
-    <meta name="description" content="This page contains all the things I am learning how to create as I learm HTML">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Grace Castaneda" />
+    <meta
+      name="description"
+      content="This page contains all the things I am learning how to create as I learm HTML"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Web Page</title>
-    <link rel="stylesheet" href="main.css" type="text/css">
-    <link rel="icon" href="images/codinghtml.png" type="images/png">
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="icon" href="images/codinghtml.png" type="images/png" />
+  </head>
+  <body>
     <h1>My Goals for the Year</h1>
     <nav aria-label="primary-navigation">
-               <ul>
-            <li>
-                <a href="#html">Learning HTML</a>
-            </li>
-            <li>
-                <a href="#vacation">Planning a Vacation</a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="#html">Learning HTML</a>
+        </li>
+        <li>
+          <a href="#vacation">Planning a Vacation</a>
+        </li>
+      </ul>
     </nav>
 
-    <hr>
+    <hr />
     <main>
-        
-<article id="html">
-    <h2>I'm Ready to Learn HTML</h2>
-<p>This is an HTML webpage</p>
-<section>
-<h3>HTML5</h3>
-<img src="images/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
-<figure><figcaption>An Example of HTML5 code <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code></figcaption></figure>
-</section>
-<section>
-<h2>My Daily Schedule</h2>
-<p>Let me tell you how:</p>
-<ol>
-    <li>
-        ...I learn more about the web dev.
-    </li>
-    <li>
-        ...I plan out my schedule.
-    </li>
-    <li>...I use resources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/">MDN</a></abbr></li>
-</ol>
-<aside>
-    <details>
-        <summary>Guess the <mark> number of hours</mark> I code per day</summary>
-        <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H">3 hours</time> every morning.</p>
-    </details>
-</aside>
-<br>
-<table>
-    <tr>
-        <td>
-        <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
-        <td>Write Code</td>
-           </tr>
-    <tr>
-        <td>
-        <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
-        <td>Eat Lunch</td>
-           </tr>
-    <tr>
-        <td>
-        <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
-        <td>Study for Other Courses</td>
-           </tr>
-</table>
-</section>
-</article>
-<article id="vacation">
-    <!-- TODO: Add more places -->
-    <h3>Places I'd like to Visit</h3>
-<section>
-    
-<p>I've heard good things about the Carribean.</p>
-<figure>
-<img src="images/caribbean.jpeg" alt="Carribean Beach" title="I want to visit a Carribean beach." width="400" height="225" loading="lazy">
-<figcaption>Carribean Beach Getaway</figcaption> </figure>
+      <article id="html">
+        <h2>I'm Ready to Learn HTML</h2>
+        <p>This is an HTML webpage</p>
+        <section>
+          <h3>HTML5</h3>
+          <img
+            src="images/html_logo_300x300.png"
+            alt="HTML5 Logo"
+            title="I am learning HTML5"
+            width="300"
+            height="300"
+          />
+          <figure>
+            <figcaption>
+              An Example of HTML5 code
+              <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </figcaption>
+          </figure>
+        </section>
+        <section>
+          <h2>My Daily Schedule</h2>
+          <p>Let me tell you how:</p>
+          <ol>
+            <li>...I learn more about the web dev.</li>
+            <li>...I plan out my schedule.</li>
+            <li>
+              ...I use resources from
+              <abbr title="Mozilla Developer Network"
+                ><a href="https://developer.mozilla.org/">MDN</a></abbr
+              >
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                Guess the <mark> number of hours</mark> I code per day
+              </summary>
+              <p>
+                I start at <time datetime="08:00">8 am</time> and I write code
+                for <time datetime="PT3H">3 hours</time> every morning.
+              </p>
+            </details>
+          </aside>
+          <br />
+          <table>
+            <caption>My Daily Schedule</caption>
+            <thead>
+            <tr>
+              <th>Time</th>
+              <th>Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+             <tr>
+              <td>
+                <time datetime="08:00">8am</time>-<time datetime="11:00"
+                  >11am</time
+                >
+              </td>
 
-<h4>Bucket list of places I want to go on vacation to:</h4>
-<figure><img src="images/vacation.jpeg" alt="Beach Vacation" title="It's 5 o'clock Somewhere!." width="400" height="267" loading="lazy">
-<figcaption>Cancun Vacation</figcaption> </figure>
-</section>
-</article>
-</main>
-<hr> 
-<footer>
-    <p>
-    &lt;&lt;&lt; &copy; <a href="about.html" target="_blank"> Grace Castaneda 2022 </a>&gt;&gt;&gt;</p>
-    <p><a href="/">Back to home</a></p> 
-</footer>  
-</body>
+              <td>Write Code</td>
+            </tr>
+            <tr>
+              <td>
+                <time datetime="11:00">11am</time>-<time datetime="12:00"
+                  >12pm</time
+                >
+              </td>
+
+              <td>Eat Lunch</td>
+            </tr>
+            <tr>
+              <td>
+                <time datetime="12:00">12pm</time>-<time datetime="17:00"
+                  >5pm</time
+                >
+              </td>
+
+              <td>Study for Other Courses</td>
+            </tr>
+            <tr>
+                <td rowspan="2">All Other Times</td>
+              <td>Free Time</td>
+              <tr>
+              <td>Sleep</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">And that's what I do everyday, 5 days a week. Just eat, sleep, code ..and recharge!</td>
+            </tr>
+        </tfoot>
+        </table>
+        </section>
+      </article>
+      <hr>
+      <article id="vacation">
+        <!-- TODO: Add more places -->
+        <h3>Places I'd like to Visit</h3>
+        <section>
+          <p>I've heard good things about the Carribean.</p>
+          <figure>
+            <img
+              src="images/caribbean.jpeg"
+              alt="Carribean Beach"
+              title="I want to visit a Carribean beach."
+              width="400"
+              height="225"
+              loading="lazy"
+            />
+            <figcaption>Carribean Beach Getaway</figcaption>
+          </figure>
+
+          <h4>Bucket list of places I want to go on vacation to:</h4>
+          <figure>
+            <img
+              src="images/vacation.jpeg"
+              alt="Beach Vacation"
+              title="It's 5 o'clock Somewhere!."
+              width="400"
+              height="267"
+              loading="lazy"
+            />
+            <figcaption>Cancun Vacation</figcaption>
+          </figure>
+        </section>
+      </article>
+    </main>
+    <hr />
+    <footer>
+      <p>
+        &lt;&lt;&lt; &copy;
+        <a href="about.html" target="_blank"> Grace Castaneda 2022 </a
+        >&gt;&gt;&gt;
+      </p>
+      <p><a href="/">Back to home</a></p>
+    </footer>
+  </body>
 </html>
-
-
-
-
