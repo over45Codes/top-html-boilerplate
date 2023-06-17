@@ -2,13 +2,13 @@
 
 - HTML boilerplate project
 
-Try it [here!]() comming soon!
+Try it [here!]() coming soon!
 
-![alt text]() comming soon!
+![alt text]() coming soon!
 
 ## Summary
 
-This is the a practice of the Odin Project HTML Foundations
+This is the practice of the Odin Project HTML Foundations
 Learn the foundations of HTML, a fundamental building block of everything on the web.
 
 ## Author
